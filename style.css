@@ -1,0 +1,26 @@
+table, caption, th, td {
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: auto;
+}
+caption {
+    background-color: #d3d3d3;
+}
+.nom {
+    font-style: bold;
+}
+.semaine {
+    background-color: #d3d3d3;
+}
+.one {
+    background-color:#A1D9E6;
+    text-align: center;
+}
+.two {
+    background-color: #6CF08F;
+    text-align: center;
+}
+.td, .footer {
+    text-align: center;
+}
