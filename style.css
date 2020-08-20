@@ -1,26 +1,47 @@
-table, caption, th, td {
-    font-family: 'Courier New', Courier, monospace;
-    border: 2px solid black;
+table,th, td  {
+    table-layout: fixed;
     border-collapse: collapse;
-    width: auto;
+    border: 2px solid black;
 }
 caption {
-    background-color: #d3d3d3;
-}
-.nom {
     font-weight: bold;
+    background-color: #d3d3d3;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;;
 }
-.semaine {
+thead tr th {
+    background-color: white;
+}
+tbody, td {
+    text-align: center;
+}
+tbody th:nth-child(1){
+    font-weight: normal;
     background-color: #d3d3d3;
 }
-.one {
-    background-color:#A1D9E6;
-    text-align: center;
+tbody tr:nth-child(1) {
+    background-color:#A1D9E6; 
 }
-.two {
+tbody tr:nth-child(3) {
+    background-color:#A1D9E6; 
+}
+tbody tr:nth-child(5) {
+    background-color:#A1D9E6; 
+}
+tbody tr:nth-child(2) {
     background-color: #6CF08F;
-    text-align: center;
 }
-.td, .footer {
+tbody tr:nth-child(4) {
+    background-color: #6CF08F;
+}
+th {
+    letter-spacing: 2px;
+}
+td {
+    letter-spacing: 2px;
+}
+tfoot {
     text-align: center;
+    font-style: italic;
 }
